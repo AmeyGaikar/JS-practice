@@ -1,5 +1,5 @@
 function callbackDemo(name, callback) {
-return callback(`Hello, ${name}`);
+  return callback(`Hello, ${name}`);
 }
 
-console.log(callbackDemo("amey", (params) => params))
+console.log(callbackDemo("amey", (params) => params));
